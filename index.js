@@ -7,13 +7,11 @@ function palindromeTest(str){
     console.log(newStr);
   }
   if(str == newStr){
-    console.log("String is a palindrome.");
-    console.log(str, newStr);
+    console.log("String is a palindrome:", str,"and", newStr);
     return str == newStr;
   }
   else{
-    console.log("String is not a palindrome.");
-    console.log(str, newStr);
+    console.log("String is not a palindrome.", str, newStr);
     return str == newStr;
   }
 }
