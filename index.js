@@ -11,7 +11,7 @@ function palindromeTest(str){
     return str == newStr;
   }
   else{
-    console.log("String is not a palindrome.", str, newStr);
+    console.log("String is not a palindrome.", str,"and", newStr);
     return str == newStr;
   }
 }
